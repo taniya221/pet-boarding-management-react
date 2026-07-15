@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import NavBar from './NavBar'
 
 const ViewPet = () => {
     const [data, changeData] = useState([])
@@ -20,6 +21,7 @@ const ViewPet = () => {
   return (
     
          <div>
+            <NavBar />
           
         <div className="container">
 
